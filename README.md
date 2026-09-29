@@ -2,7 +2,7 @@
 
 An engineering site about moving data safely between APIs, business rules, storage and the interface people use.
 
-**[svilenkovicdev.com](https://svilenkovicdev.com/)** · [Srpski](README.sr.md)
+**[svilenkovicdev.com](https://svilenkovicdev.com/)** · [Auto Delovi RM case study](https://svilenkovicdev.com/en/case-studies/auto-delovi-rm-search-and-catalogue/) · [Srpski](README.sr.md)
 
 > [!NOTE]
 > This is an independent project by D. Svilenković. The production source stays in a private repository; this public repository documents the work.
@@ -10,7 +10,7 @@ An engineering site about moving data safely between APIs, business rules, stora
 <table>
   <tr><td><b>Type</b></td><td>Integrations and web engineering</td></tr>
   <tr><td><b>Languages</b></td><td>Serbian and English</td></tr>
-  <tr><td><b>Public routes</b></td><td>20 canonical pages</td></tr>
+  <tr><td><b>Public routes</b></td><td>22 canonical pages</td></tr>
   <tr><td><b>Role</b></td><td>Research, design, development, SEO, hosting and maintenance</td></tr>
   <tr><td><b>Stack</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
 </table>
@@ -28,7 +28,7 @@ Code becomes interface in the main sequence. Graphite terminals, amber tokens an
 - Integration work explained through data, rules and operator states
 - Failure, retry and validation paths included in the service story
 - A code-to-interface scroll sequence with no dependency on animation for meaning
-- Ten Serbian and ten English canonical routes
+- Eleven Serbian and eleven English canonical routes
 - Production headers, private paths and contact endpoint checked after release
 
 ## Release checks
