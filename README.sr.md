@@ -1,42 +1,58 @@
+<a href="https://svilenkovicdev.com/"><img src="media/cover.jpg" alt="Svilenković Dev, naslovna strana na laptopu i telefonu" width="100%"></a>
+
 # Svilenković Dev
 
-Integracije i web inženjering.
+Inženjerski sajt o putu od podatka do ekrana: šta čovek vidi kad polje nedostaje, kad odgovor kasni i kad treba da odluči.
 
-**[svilenkovicdev.com](https://svilenkovicdev.com/)** · [Studija: Auto Delovi RM](https://svilenkovicdev.com/studije/auto-delovi-rm-pretraga-i-katalog/) · [English](README.md)
+**[svilenkovicdev.com](https://svilenkovicdev.com/)** · [Studija slučaja](https://svilenkovic.rs/radovi/svilenkovic-dev) · [English](README.md)
 
 > [!NOTE]
-> Samostalni projekat D. Svilenkovića. Produkcijski izvor ostaje u privatnom repozitorijumu; ovaj javni repozitorijum dokumentuje izvedeni rad.
+> Moj sopstveni projekat, ne klijentski posao. Izvorni kod je privatan. Ova stranica opisuje šta sajt radi i kako je napravljen.
 
 <table>
-  <tr><td><b>Vrsta</b></td><td>Integracije i web inženjering</td></tr>
-  <tr><td><b>Jezici</b></td><td>srpski i engleski</td></tr>
-  <tr><td><b>Javne rute</b></td><td>22 canonical stranica</td></tr>
-  <tr><td><b>Uloga</b></td><td>istraživanje, dizajn, razvoj, SEO, hosting i održavanje</td></tr>
-  <tr><td><b>Tehnologije</b></td><td>Astro, TypeScript, CSS, PHP 8.3, SQLite, nginx</td></tr>
+  <tr><td><b>Klijent</b></td><td>Sopstveni projekat</td></tr>
+  <tr><td><b>Delatnost</b></td><td>Integracije i web inženjering</td></tr>
+  <tr><td><b>Lokacija</b></td><td>Srbija</td></tr>
+  <tr><td><b>Vrsta</b></td><td>Sajt sa više strana</td></tr>
+  <tr><td><b>Moj deo posla</b></td><td>Istraživanje, dizajn, izrada, SEO i hosting</td></tr>
+  <tr><td><b>Tehnologije</b></td><td>Astro 7, TypeScript, PHP 8.3, SQLite, nginx</td></tr>
 </table>
 
-## Namena
+## O projektu
 
-Integracija je uspešna kada su podaci, stanja greške i rad operatera podjednako jasni. Projekat prati informaciju od spoljnog izvora, kroz validaciju i čuvanje, do završnog interfejsa.
+Kod koji uspešno pročita podatak tek je početak. Sledeće pitanje je šta čovek vidi kad polje nedostaje, kad odgovor kasni i kad treba da donese odluku. Svilenković Dev se bavi baš tim delom razvoja.
 
-## Dizajn pravac
+Glavna scena prikazuje kako struktura podataka prelazi u komponentu interfejsa; animacija naglašava redosled obrade, ali se sadržaj čita i bez nje. Primer JSON u interfejs prima mali, definisan ulaz i označen je kao primer, ne kao alat za proizvoljan ulaz. Pored njega primer budžeta prenosa podseća da veličina odgovora ima cenu za korisnika.
 
-Kod u glavnoj sekvenci postaje interfejs. Grafitni terminali, ćilibarski tokeni i ledenoplavi paneli pretvaraju sirov podatak u razumljivu akciju.
+## Šta sam uradio
 
-## Šta je urađeno
+- Primer JSON u interfejs sa jasno ograničenim formatom ulaza
+- Strana o budžetu prenosa i tehničke beleške
+- Strane koje arhitekturu sistema i integracije odvajaju od izgleda pojedinačnog ekrana
+- Studija o pretrazi i katalogu za Auto Delovi RM
+- Scena uz skrol od koda do interfejsa, od koje tekst ne zavisi
 
-- Integracije objašnjene kroz podatke, pravila i stanja operatera
-- Greške, ponovni pokušaji i validacija uključeni u priču o usluzi
-- Skrol sekvenca od koda do interfejsa bez zavisnosti smisla od animacije
-- Jedanaest srpskih i jedanaest engleskih canonical ruta
-- Produkcijska zaglavlja, privatne putanje i kontakt endpoint provereni posle objave
+## Merenja
 
-## Provere izdanja
+| | Performanse | Pristupačnost | Dobre prakse | SEO |
+| :-- | :-: | :-: | :-: | :-: |
+| Telefon | 100 | 100 | 100 | 100 |
+| Desktop | 100 | 100 | 100 | 100 |
 
-Svaka canonical ruta proverena je na širinama 390, 768, 1440 i 1920 px. Izdanje je provereno i bez JavaScript-a i uz reduced-motion postavku. Žive provere obuhvatile su HTTPS, preusmerenja, zaglavlja odgovora, strukturirane podatke, sitemap fajlove, zaštićene putanje i neispravne kontakt zahteve bez slanja test poruka.
+PageSpeed Insights, laboratorijsko merenje živog sajta, oktobar 2026. Sigurnosna zaglavlja: 6 od 6. axe provera pristupačnosti: bez prekršaja. Strukturisani podaci: `Organization`, `Person`.
 
-Ovo su inženjerske provere, a ne tvrdnje o poziciji u pretrazi ili terenskim performansama.
+## Snimci ekrana
+
+<table>
+  <tr>
+    <td width="68%" valign="top"><img src="media/desktop.webp" alt="Svilenković Dev, naslovna strana na ekranu širine 1440 px"></td>
+    <td width="32%" valign="top"><img src="media/mobile.webp" alt="Svilenković Dev, naslovna strana na telefonu"></td>
+  </tr>
+</table>
+
+<img src="media/inner-1.webp" alt="JSON u interfejs na živom sajtu">
+<sub>JSON u interfejs na živom sajtu</sub>
 
 ---
 
-<sub>Dizajn i izrada: [D. Svilenković](https://svilenkovic.com).</sub>
+<sub>Izrada: [D. Svilenković](https://svilenkovic.rs).</sub>
